@@ -1,7 +1,7 @@
 @font-face {
-  font-family: Serif, Georgia, "Times New Roman";
+  font-family: pt_serif, Georgia, "Times New Roman";
 }
-p {
+p, .menu, .main-content__button{
   font-family: Roboto, sans-serif;
 }
 
@@ -16,13 +16,17 @@ body {
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 40px 0;
 }
 .logo, .menu{
   display: inline-block;
   }
 .logo{
   margin-right: 63%;
-  padding: 40px 0;
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
+
 }
 .menu {
   display: flex;
