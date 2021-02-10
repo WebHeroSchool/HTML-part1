@@ -109,6 +109,12 @@ body {
 .main__title-text_highlight{
   background: #ECF3FF;
 }
+@media(max-width: 1844px) {
+  .main{
+    padding:200px 50% 150px 0;
+    background-position: 100% 70%;
+  }
+}
 @media (max-width: 1366px){
   .wrapper{
     margin: auto;
@@ -144,6 +150,19 @@ body {
     font: 14px/16px Roboto;
     padding: 15px 30px 15px 20px;
     margin-left: 10px;
+  }
+}
+@media (max-width:1200px) {
+  .wrapper{
+    margin: auto;
+    width: 80%;
+  }
+  .main{
+    background-position: 96% 40%;
+    padding: 10% 50% 150px 0;
+  }
+  .main__title{
+    font: 700 45px/66px "pt_serifbold";
   }
 }
 @media (max-width: 1024px) {
