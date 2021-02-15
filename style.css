@@ -33,7 +33,7 @@ body {
 .menu__item{
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px "Roboto", Arial, sans-serif;
+  font: 500 18px/21px 'Roboto', Arial, sans-serif;
   color: black;
   text-decoration: none;
   transition: opacity .5s;
@@ -89,22 +89,22 @@ body {
 }
 .main{
   padding:200px 65% 150px 0;
-  background: top right no-repeat url("img/main-content_image.svg");
+  background: top right no-repeat url('img/main-content_image.svg');
   background-position: 100% 90%;
   background-size: 50.5%;
 }
 .main__title{
-  font: 700 66px/87px "pt_serifbold";
+  font: 700 66px/87px 'pt_serifbold';
   margin:0 0 37px 5px;
 }
 .main__subtitle{
   margin: 0 0 41px 4px;
   padding: 0 15% 0 0;
-  font: 400 22px/26px "Roboto";
+  font: 400 22px/26px 'Roboto';
 }
 .main__button{
   display: inline-block;
-  font: normal 18px/22px "Roboto";
+  font: normal 18px/22px 'Roboto';
   color:#ffff;
   padding: 18px 35px 17px 22px;
   margin-left: 5px;
@@ -115,7 +115,7 @@ body {
 }
 .main__button:hover{
   opacity: .5;
-  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  animation:trambling-animation 1.2s ease-in-out 0s normal none infinite running;
 }
 @keyframes trambling-animation {
   0%, 50%, 100% {
@@ -146,7 +146,7 @@ body {
     margin-left: 13px;
   }
   .menu__item{
-    font: 13px/16px Roboto;
+    font: 13px/16px 'Roboto';
     padding-right: 5px;
 
   }
@@ -164,12 +164,12 @@ body {
     margin: 0 0 40px 10px;
   }
   .main__subtitle{
-    font:18px/21px Roboto;
+    font:18px/21px 'Roboto';
     padding: 0 20% 0 0;
     margin: 0 0 40px 10px;
   }
   .main__button{
-    font: 14px/16px Roboto;
+    font: 14px/16px 'Roboto';
     padding: 15px 30px 15px 20px;
     margin-left: 10px;
   }
@@ -184,7 +184,7 @@ body {
     padding: 10% 50% 150px 0;
   }
   .main__title{
-    font: 700 45px/66px "pt_serifbold";
+    font: 700 45px/66px 'pt_serifbold';
   }
 }
 @media (max-width: 1024px) {
@@ -196,7 +196,7 @@ body {
     margin-left: 0;
   }
   .menu__item{
-    font: 14px/16px Roboto;
+    font: 14px/16px 'Roboto';
     margin-right: 21px;
 
   }
@@ -213,12 +213,12 @@ body {
     margin: 0 0 37px 0;
   }
   .main__subtitle{
-    font: 18px/21px Roboto;
+    font: 18px/21px 'Roboto';
     padding-right: 15%;
     margin: 0 0 42px 0;
   }
   .main__button{
-    font: 14px/16px Roboto;
+    font: 14px/16px 'Roboto';
     padding: 15px 26px 13px 15px;
     margin-left: 0;
   }
@@ -234,7 +234,7 @@ body {
     padding: 25px 0 0 0;
   }
   .logo{
-    background: url("img/logo-mobile.svg");
+    background: url('img/logo-mobile.svg');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 5px;
@@ -329,11 +329,11 @@ body {
   }
   .main__subtitle{
     margin-bottom:25px;
-    font: 16px/18px Roboto;
+    font: 16px/18px 'Roboto';
     padding: 0 40px;
   }
   .main__button{
-    font: 500 14px/16px Roboto, arial;
+    font: 500 14px/16px 'Roboto', arial;
     padding: 18px 24px 12px 18px;
     margin-left: 0;
   }
