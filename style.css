@@ -115,7 +115,7 @@ body {
 }
 .main__button:hover{
   opacity: .5;
-  animation:trambling-animation 1.2s ease-in-out 0s normal none infinite running;
+  animation:trambling-animation 1.2s ease-in-out infinite;
 }
 @keyframes trambling-animation {
   0%, 50%, 100% {
